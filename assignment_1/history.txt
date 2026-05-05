@@ -1,0 +1,50 @@
+  229  find /home/ali -name "CTA200_2025" 2>/dev/null
+  230  find /home/ali -name "CTA200_2025"
+  231  find /home/ali/ -name "CTA200_2025"
+  232  LS
+  233  ls
+  234  cd CTA200H_Alexis
+  235  ls
+  236  find /home/murray/ -name "Hello_world.*" 2>/dev/null
+  237  cp /home/murray/PATH/Hello_world.c assignment_1/
+  238  cp /home/murray/tmp/Hello_world.py assignment_1/
+  239  pwd
+  240  ls
+  241  cd CTA200_2025
+  242  ls
+  243  cd ..
+  244  ls
+  245  cd CTA_2025
+  246  cd CTA200_2025
+  247  ls
+  248  cp /home/murray/tmp/Hello_world.py assignment_1/
+  249  cp /home/murray/Papers/Hello_world.c assignment_1/
+  250  cp /home/murray/Papers/tmp/Hello_world.c assignment_1/
+  251  ls
+  252  cd assignment_1
+  253  ls
+  254  mv Hello_word.c Hello_world_Li.c
+  255  mv Hello_world.c Hello_world_Li.c
+  256  mv Hello_world.py Hello_world_Li.py
+  257  ls
+  258  module load gcc
+  259  gcc Hello_world_Li.c -o Hello_world.x
+  260  ./Hello_world.x
+  261  ./Hello_world.py
+  262  ./Hello_world_Li.py
+  263  Hello_world_Li.py
+  264  python Hello_world_Li.py
+  265  vi Hello_world_Li.c
+  266  vi Hello_world_Li.py
+  267  gcc Hello_world_Li.c -o Hello_world.x
+  268  ./Hello_world.x
+  269  python Hello_world_Li.py
+  270  ./Hello_world.x > output_c.txt
+  271  python Hello_world_Li.py > output_python.txt
+  272  ls
+  273  cat output_c.txt
+  274  history
+  275  history | tail-n 50 > history.txt
+  276  history | tail -n 50 >
+  277  history | tail -n 50
+  278  history | tail -n 50 > history.txt
