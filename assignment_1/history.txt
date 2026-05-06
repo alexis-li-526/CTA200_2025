@@ -308,7 +308,8 @@
   308  jupyter notebook --port=2468 --no-browser
   309  module load python/3.10.2
   310  jupyter notebook --port=2468 --no-browser
-  311  history
+  311  cd CTA200_2025/assignment_1 
+  312  rm history.txt
   312  ls
   313  cd CTA200_2025
   314  ls
