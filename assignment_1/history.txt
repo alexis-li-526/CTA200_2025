@@ -1,50 +1,318 @@
-  229  find /home/ali -name "CTA200_2025" 2>/dev/null
-  230  find /home/ali -name "CTA200_2025"
-  231  find /home/ali/ -name "CTA200_2025"
-  232  LS
-  233  ls
-  234  cd CTA200H_Alexis
-  235  ls
-  236  find /home/murray/ -name "Hello_world.*" 2>/dev/null
-  237  cp /home/murray/PATH/Hello_world.c assignment_1/
-  238  cp /home/murray/tmp/Hello_world.py assignment_1/
-  239  pwd
-  240  ls
-  241  cd CTA200_2025
-  242  ls
-  243  cd ..
-  244  ls
-  245  cd CTA_2025
-  246  cd CTA200_2025
+    1  ssh ali@gw.cita.utoronto.ca/cita/local/bin/passwd
+    2  whoami
+    3  /cita/local/bin/passwd
+    4  ssh ali@cosmo2.cita.utoronto.ca:6
+    5  ssh ali@cosmo6.cita.utoronto.ca:6
+    6  exit
+    7  cd /mnt/scratch-lustre/user
+    8  /mnt/scratch-lustre/user
+    9  /mnt/scratch-lustre/ali
+   10  cd /mnt/scratch-lustre/ali
+   11  ls /mnt
+   12  ls /mnt/node_scratch
+   13  ls /mnt/node_scratch/ali
+   14  ls /mnt
+   15  ls /mnt/scratch-lustre
+   16  cd ~
+   17  ls
+   18  exit
+   19  ls /mnt/scratch-lustre/ali
+   20  ls /mnt/scratch-lustre
+   21  ls
+   22  cd /mnt
+   23  ll
+   24  cd /fd/lustre/scratch
+   25  cd /fs/lustre/scratch
+   26  ll
+   27  ;s
+   28  ls
+   29  ssh ali@gw.cita.utoronto.ca
+   30  ssh ali@gw.cita.utoronto.ca
+   31  cosmo2.cita.utoronto.ca:6
+   32  ali.cosmo2.cita.utoronto.ca:6
+   33  ssh ali.cosmo2.cita.utoronto.ca:6
+   34  ssh ali.cosmo2.cita.utoronto.ca
+   35  ssh ali@cosmo2.cita.utoronto.ca:6
+   36  ssh ali@cosmo2.cita.utoronto.ca
+   37  ssh ali@cosmo6.cita.utoronto.ca
+   38  cd CTA200
+   39  cd CTA200H
+   40  git remote set-url origin https://github.com/alexis-li-526/CTA200H
+   41  command git
+   42  cd repo-name
+   43  git clone https://github.com/your-username/repo-name.git
+   44  git clone https://github.com/alexis-li-526/CTA200H
+   45  cd CTA200H
+   46  cd ..
+   47  ls
+   48  cd ..
+   49  ls
+   50  rm -rf CTA200H/
+   51  pwd
+   52  git clone https://github.com/alexis-li-526/CTA200H_Alexis
+   53  cd CTA200H_Alexis
+   54  ls
+   55  touch fluffyraccoons.cpp
+   56  git add fluffyraccoons.cpp
+   57  commit -m "Raccoons are fluffy, you should know"
+   58  git commit -m "Raccoons are fluffy, you should know"
+   59  git push
+   60  ls
+   61  git push
+   62  git clone https://github.com/CITA/CTA200H.git
+   63  git log
+   64  git status
+   65  git clone
+   66  cd CTA200
+   67  cd CTA200H
+   68  git remote set-url origin https://github.com/alexis-li-526/CTA200H
+   69  ssh ali@cosmo2.cita.utoronto.ca
+   70  git push
+   71  cosmo2
+   72  ssh cosmo2
+   73  ssh ali@cosmo2.cita.utoronto.ca
+   74  ssh ali@cosmo6.cita.utoronto.ca
+   75  ls
+   76  cd CTA200H_Alexis
+   77  ls
+   78  git push
+   79  cd /mnt/scratch-lustre/user
+   80  cd ~
+   81  ls
+   82  touch assignment_1
+   83  ls
+   84  rm assignment_1
+   85  ls
+   86  mkdir assignment_1
+   87  ls
+   88  cd assignment_1
+   89  cd..
+   90  cd ..
+   91  ls
+   92  touch README.md
+   93  cd /home/murray
+   94  ls
+   95  find / -name "Hello_world.py" 2
+   96  find / -name "Hello_world.py"
+   97  ali@cosmo6.cita.utoronto.ca:6
+   98  ssh ali@cosmo6.cita.utoronto.ca:6
+   99  ssh ali@cosmo6.cita.utoronto.ca
+  100  ls
+  101  cd CTA200H_Alexis
+  102  git init
+  103  git status
+  104  pwd
+  105  ls
+  106  mkdir CTA200_2025
+  107  ls
+  108  cd CTA200_2025
+  109  ls
+  110  git init
+  111  git status
+  112  cd ..
+  113  ls
+  114  cd ..
+  115  ls
+  116  cd assignment_1
+  117  vi README.md
+  118  cd ..
+  119  ls
+  120  cd CTA200H_Alexis
+  121  ls
+  122  cd CTA200_2025
+  123  git add assignement_1/README.md
+  124  git add assignment_1/README.md
+  125  git add README.md
+  126  touch new
+  127  ls
+  128  mv new old
+  129  ls
+  130  cd ..
+  131  ls
+  132  cd ..
+  133  ls
+  134  mv README.md assignment_1/
+  135  ls assignment_1
+  136  pwd
+  137  ls
+  138  mkdir CTA200_2025
+  139  mv assignment_1 CTA200_2025/\
+  140  mv assignment_1 CTA200_2025/
+  141  cd assignment_1
+  142  ;s
+  143  ls
+  144  ls CTA200_2025
+  145  ssh username@gw.cita.utoronto.ca
+  146  ssh ali@gw.cita.utoronto.ca/cita/local/bin/passwd
+  147  ssh ali@gw.cita.utoronto.ca
+  148  module load python
+  149  module load python/3.10.2
+  150  jupyter notebook --port=2468 --no-browser
+  151  /cita/local/bin/passwd
+  152  exit
+  153  ssh cosmos6
+  154  ssh cosmo6
+  155  ls
+  156  cd CTA200H_Alexis
+  157  ls
+  158  rm README.md
+  159  ls
+  160  cd ..
+  161  ls
+  162  cd CTA200_2025
+  163  ls
+  164  cd ..
+  165  ls
+  166  rm README.md
+  167  ls
+  168  cd CTA200_2025
+  169  ls
+  170  cd assignment_1
+  171  ls
+  172  cd README.md
+  173  vi README.md
+  174  cat README.md
+  175  find /home/murray -name "Hello_world.*" 2>/dev/null
+  176  find /home/murray -name "Hello_world.c" 2>/dev/null
+  177  ls
+  178  cd ..
+  179  ls
+  180  find /home/murray -name "Hello_world.*" 2>/dev/null
+  181  find / -name "Hello_world.*" 2>/dev/null
+  182  cosmo6
+  183  sh cosmo6
+  184  ssh cosmos6
+  185  ssh cosmo8
+  186  ls
+  187  cd CTA200_2025
+  188  git init
+  189  ls
+  190  git add README.md
+  191  cd assignment_1
+  192  mv * ..
+  193  ls
+  194  cd ..
+  195  ls
+  196  git add README.md
+  197  git commit -m "Added README"
+  198  ssh cosmo8
+  199  find /home/murray -name "Hello_world.*"
+  200  find /home/murray -name "Hello_world.*" 2>/dev/null
+  201  find / -name "Hello_world.py"
+  202  cosmo8
+  203  find /home/murray -name "Hello_world.py" 2>/dev/null
+  204  find /home/murray -name "Hello_world.py"
+  205  find / -name "Hello_world.py"
+  206  cosmo8
+  207  ssh cosmo8
+  208  ls /home/murray
+  209  ssh cosmo8
+  210  cd /home/ali
+  211  /home/ali
+  212  cd /home/murray
+  213  ls
+  214  cd /home/ali
+  215  ls
+  216  pwd
+  217  cd /home/murray
+  218  pwd
+  219  find /home/ali -name "fluffyraccoons.*" 2>/dev/null
+  220  cd /home/ali
+  221  ls
+  222  find /home/ali -name "CTA200_2025*" 2>/dev/null
+  223  find /home/ali -name "CTA200_2025" 2>/dev/null
+  224  find /home/ali -name "CTA200_2025"
+  225  find /home/ali/ -name "CTA200_2025"
+  226  LS
+  227  ls
+  228  cd CTA200H_Alexis
+  229  ls
+  230  find /home/murray/ -name "Hello_world.*" 2>/dev/null
+  231  cp /home/murray/PATH/Hello_world.c assignment_1/
+  232  cp /home/murray/tmp/Hello_world.py assignment_1/
+  233  pwd
+  234  ls
+  235  cd CTA200_2025
+  236  ls
+  237  cd ..
+  238  ls
+  239  cd CTA_2025
+  240  cd CTA200_2025
+  241  ls
+  242  cp /home/murray/tmp/Hello_world.py assignment_1/
+  243  cp /home/murray/Papers/Hello_world.c assignment_1/
+  244  cp /home/murray/Papers/tmp/Hello_world.c assignment_1/
+  245  ls
+  246  cd assignment_1
   247  ls
-  248  cp /home/murray/tmp/Hello_world.py assignment_1/
-  249  cp /home/murray/Papers/Hello_world.c assignment_1/
-  250  cp /home/murray/Papers/tmp/Hello_world.c assignment_1/
+  248  mv Hello_word.c Hello_world_Li.c
+  249  mv Hello_world.c Hello_world_Li.c
+  250  mv Hello_world.py Hello_world_Li.py
   251  ls
-  252  cd assignment_1
-  253  ls
-  254  mv Hello_word.c Hello_world_Li.c
-  255  mv Hello_world.c Hello_world_Li.c
-  256  mv Hello_world.py Hello_world_Li.py
-  257  ls
-  258  module load gcc
-  259  gcc Hello_world_Li.c -o Hello_world.x
-  260  ./Hello_world.x
-  261  ./Hello_world.py
-  262  ./Hello_world_Li.py
-  263  Hello_world_Li.py
-  264  python Hello_world_Li.py
-  265  vi Hello_world_Li.c
-  266  vi Hello_world_Li.py
-  267  gcc Hello_world_Li.c -o Hello_world.x
-  268  ./Hello_world.x
-  269  python Hello_world_Li.py
-  270  ./Hello_world.x > output_c.txt
-  271  python Hello_world_Li.py > output_python.txt
-  272  ls
-  273  cat output_c.txt
-  274  history
-  275  history | tail-n 50 > history.txt
-  276  history | tail -n 50 >
-  277  history | tail -n 50
-  278  history | tail -n 50 > history.txt
+  252  module load gcc
+  253  gcc Hello_world_Li.c -o Hello_world.x
+  254  ./Hello_world.x
+  255  ./Hello_world.py
+  256  ./Hello_world_Li.py
+  257  Hello_world_Li.py
+  258  python Hello_world_Li.py
+  259  vi Hello_world_Li.c
+  260  vi Hello_world_Li.py
+  261  gcc Hello_world_Li.c -o Hello_world.x
+  262  ./Hello_world.x
+  263  python Hello_world_Li.py
+  264  ./Hello_world.x > output_c.txt
+  265  python Hello_world_Li.py > output_python.txt
+  266  ls
+  267  cat output_c.txt
+  268  history
+  269  history | tail-n 50 > history.txt
+  270  history | tail -n 50 >
+  271  history | tail -n 50
+  272  history | tail -n 50 > history.txt
+  273  ls
+  274  cd ..
+  275  ls
+  276  pwd
+  277  add assignment_1/
+  278  git add assignment_1/
+  279  git commit -m "Added updated programs, outputs, and history"
+  280  git remote add origin https://github.com/alexis-li-526/CTA200_2025
+  281  git branch -M main
+  282  git push -u origin main
+  283  git branch -M main
+  284  git push -u origin main
+  285  jupyter lab
+  286  jupyter notebook --port=2468 --no-browser
+  287  python
+  288  module load python
+  289  jupyter notebook --port=2468 --no-browser
+  290  module load python/3.10.2
+  291  jupyter notebook --port=2468 --no-browser
+  292  exit
+  293  ssh cosmo8
+  294  find /home/murray/ -name "Hello_world.*" 2>/dev/null
+  295  find /home/murray/ -name "Hello_world.c" 2>/dev/null
+  296  find /home/murray/ -name "Hello_world.*" 2>/dev/null
+  297  module load python/3.10.2
+  298  jupyter notebook --port-2468 --no-browser
+  299  jupyter notebook
+  300  jupyter notebook --no-browser
+  301  ssh -L 2468:localhost:2468 ali@cita.utoronto.ca
+  302  jupyter lab --port=2468
+  303  jupyter lab
+  304  cosmo8
+  305  ssh cosmo8
+  306  ssh -L 2468:localhost:2468 ali@cosmo8
+  307  module load python
+  308  jupyter notebook --port=2468 --no-browser
+  309  module load python/3.10.2
+  310  jupyter notebook --port=2468 --no-browser
+  311  history
+  312  ls
+  313  cd CTA200_2025
+  314  ls
+  315  cd assignment_1
+  316  ls
+  317  touch history.txt
+  318  history > history.txt
